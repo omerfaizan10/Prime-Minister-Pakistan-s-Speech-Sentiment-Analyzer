@@ -237,7 +237,7 @@ elif st.session_state.page == 'dashboard':
             st.pyplot(fig)
         else:
             st.warning("No emotions detected in this speech.")
-if st.button("⬅️ Back to Welcome Page"):
+    if st.button("⬅️ Back to Welcome Page"):
         st.session_state.page = 'welcome'
         st.rerun()
 
