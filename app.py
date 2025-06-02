@@ -168,9 +168,9 @@ elif st.session_state.page == 'dashboard':
     st.pyplot(fig)
 
     # Back button
-    if st.button("⬅️ Back to Welcome Page"):
-        st.session_state.page = 'welcome'
-        st.rerun()
+
+
+    
     # 📊 Individual Speech Emotion Radar
     st.subheader("🕵️‍♂️ Emotion Profile of a Single Speech")
     speech_titles = filtered_df['Title'].tolist()
